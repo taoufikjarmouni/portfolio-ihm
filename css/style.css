@@ -1,0 +1,382 @@
+@font-face{
+	font-family: BebasNeueBook;
+	src: url(../font/BebasNeue_Book.otf);
+}
+@font-face{
+	font-family: BebasNeueRegular;
+	src: url(../font/BebasNeue_Regular.otf);
+}
+body{
+    background-attachment:fixed;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+img {
+	max-width:100%;
+}
+.center {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+.menu {
+	display: flex;
+    width:100%;
+	height:5em;
+	font-size: 0.9em;
+    justify-content: left;
+}
+.gauche {
+	background-color: #FFF8EE;
+	width: 50%;
+}
+.logo {
+	text-align:left;
+	max-width: 10%;
+	mix-blend-mode: multiply;
+}
+.pattern {
+	max-width: 100%;
+}
+.propos {
+	text-align:left;
+	width:25%;
+}
+.realisations {
+	text-align:left;
+	width:25%;
+}
+.contact {
+	text-align:left;
+	width:25%;
+}
+.menu1 {
+	text-align:left;
+	width:25%;
+}
+.accueil {
+	display: flex;
+    justify-content: center;
+    width:100%;
+	min-height:100vh;
+}
+.gauche1 {
+	background-color: #FFF8EE;
+	width: 50%;
+}
+.droite1 {
+	width: 50%;
+	background-image: url(../img/texturepattern.png);
+	background-size: cover;
+}
+.pattern1 {
+	max-width: 100%;
+}
+.propos1 {
+	display: flex;
+	width: 100%;
+	min-height:100vh;
+	background-color: #3E366A;
+}
+.gauche2 {
+	padding-top:124px;
+	padding-right:50px;
+	text-align:center;
+}
+.gauche2 p {
+	color: #FFF8EE;
+	text-align: justify;
+}
+.recttexte {
+	display: flex;
+	align-items: flex-start;
+}
+.parent {
+	display: flex;
+	align-items: flex-start;
+}
+.parent2 {
+	display: flex;
+	align-items: flex-start;
+}
+.recttexte img {
+	padding-right:20px;
+}
+.droite2 {
+	width: 50%;
+	text-align:left;
+}
+.realisations1 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	min-height:100vh;
+	background-color: #FFDC38;
+}
+.gauche3 {
+	text-align:center;
+}
+.droite3 {
+	text-align:left;
+	padding-top:180px;
+	padding-right:50px;
+}
+.contact1 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	min-height:100vh;
+	background-color: #FFF8EE;
+}
+.gauche4 {
+	padding-top:124px;
+	padding-right:50px;
+	text-align:center;
+}
+.droite4 {
+	text-align:center;
+	padding-top:180px;
+	padding-left:50px;
+}
+.footer {
+	display: flex;
+    width:100%;
+	height:10em;
+	font-size: 0.9em;
+	justify-content: left;
+	background-color: #FFDC38;
+}
+.gauche5 {
+	padding-right:50px;
+	padding-top:50px;
+	text-align:center;
+	width:50%;
+}
+.droite5 {
+	width: 50%;
+	padding-top:50px;
+	text-align:center;
+	padding-left:50px;
+}
+.main-nav {
+	position: fixed;
+	top: 0;
+	background: transparent;
+	z-index: 10;
+	left: 50%;
+	transform: translateX(-50%);
+	width:100vw;
+}
+.nav-link {
+	font-family: 'BebasNeueBook';
+	font-size: 2rem;
+}
+#primary-text {
+	font-family: 'BebasNeueRegular';
+	font-size: 32px;
+	font-weight:900;
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	z-index: 6;
+	text-align: left;
+	transform: translate(0%,-50%);
+	white-space:nowrap;
+}
+#secondary-text {
+	font-family: 'BebasNeueBook';
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	z-index: 6;
+	text-align: left;
+	transform: translate(0%,-50%);
+	white-space:nowrap;
+}
+.gauche5 p {
+	font-family: 'BebasNeueRegular';
+	font-size: 30px;
+}
+.droite5 p {
+	font-family: 'BebasNeueRegular';
+	font-size: 30px;
+}
+.button {
+	background-color: #FFF8EE;
+	display: inline-block;
+	border-style:none;
+}
+.button2 {
+	background-color: #FFDC38;
+	display: inline-block;
+	width: 25%;
+	border-style:none;
+}
+input {
+	border-style:none;
+}
+.parent p {
+	color: #3E366A;
+	text-align:right;
+}
+.carre1 p {
+	text-align:left;
+}
+.parent2 p {
+	color: #3E366A;
+	text-align:right;
+}
+.parent2 {
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.carre3 p {
+	text-align:left;
+}
+h2 {
+	color:#3E366A;
+}
+.button p {
+	color: #3E366A;
+	text-align: center;
+	margin-bottom: 0;
+}
+.button2 p {
+	color: #3E366A;
+	text-align: center;
+	margin-bottom: 0;
+}
+.droite3 p {
+	font-size:20px;
+}
+.nominput {
+	background-color:#3E366A;
+	width:50%;
+	border-color:#3E366A;
+	height:3rem;
+	padding:0.5rem;
+}
+.nom {
+	padding-bottom: 1rem;
+}
+.email {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.objet {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.texte {
+	padding-top: 1rem;
+	padding-bottom:2rem;
+}
+.emailinput {
+	background-color:#3E366A;
+	width:50%;
+	border-color:#3E366A;
+	height:3rem;
+	padding:0.5rem;
+}
+.objetinput {
+	background-color:#3E366A;
+	width:50%;
+	border-color:#3E366A;
+	height:3rem;
+	padding:0.5rem;
+}
+.texteinput {
+	background-color:#3E366A;
+	width:50%;
+	border-color:#3E366A;
+	height:10rem;
+	resize:vertical;
+	padding:0.5rem;
+}
+input, select, textarea{
+    color: #FFDC38;
+}
+::placeholder {
+	color: #FFDC38;
+	opacity: 0.5;
+}
+.telephone {
+	display: flex;
+}
+.adresse {
+	display: flex;
+}
+.adresse p {
+	text-align: justify;
+}
+.emailmoi {
+	display: flex;
+}
+.social {
+	display: flex;
+}
+.gauche4 p {
+	color:#3E366A;
+	font-size:24px;	
+}
+.contact2 p {
+	font-family: 'BebasNeueBook';
+	font-size:50px;
+	color:#3E366A;
+	text-align: left;
+
+}
+.navbar-brand img:hover {
+	transform:rotate(180deg);
+	transition:all 0.7s;
+}
+.contact-info p {
+	margin-left:30px;
+}
+.contact-info {
+	align-items:center;
+	padding: 30px 0;
+}
+.social-icon {
+	margin:0 20px;
+}
+#social-linkedin {
+	margin-left:30px;
+}
+@media (min-width:992px) {
+	#primary-text{font-size:10rem;}
+	#secondary-text{font-size:8rem;}
+	.droite2 img {padding-left:100px;padding-top:124px;}
+	.gauche2 p {font-size:1.5rem;}
+	.droite3 p {font-size:1.5rem;}
+	.imgprojet1 {padding-right:5rem;}
+	.imgprojet2 {padding-left:5rem;}
+	.imgprojet3 {padding-right:5rem;}
+	.imgprojet4 {padding-left:5rem;}
+	.parent {padding-bottom:5rem;}
+	.parent2 {padding-top:5rem;}
+	.adresse {align-items:flex-start;}
+}
+@media (max-width:768px) {
+	.propos1 .row{justify-content:center;}
+	.gauche2 {margin-bottom:50px;}
+	.imgprojet1 {padding-right:2px;}
+	.imgprojet2 {padding-left:2px;}
+	.imgprojet3 {padding-right:2px;}
+	.imgprojet4 {padding-left:2px;}
+	.parent,.parent2 {justify-content:center;}
+	.parent p{padding-bottom:5px;}
+	.parent2 p{padding-top:5px;}
+	.realisations1 .row  {padding-top:50px;}
+	#secondary-text {font-size:50px;position:initial;top:0%;transform:initial;text-align:center;}
+	.droite3 {padding-top:30px;padding-right:0;}
+	.droite4 {padding:50px 0;}
+}
+@media (max-width:992px) {
+	#primary-text {font-size:50px;}
+	.gauche4,.droite4 {padding-left:0;padding-right:0;}
+	#secondary-text {font-size:5rem;}
+}
+@media (min-width: 992px) and (max-width:1200px) {
+	#secondary-text {font-size:6rem;}
+}
